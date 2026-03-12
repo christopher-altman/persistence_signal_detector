@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Non-gridworld domain transfer: 1D survival corridor ($L=50$).
+$\Delta = -0.0348$ (FAIL). Near-zero $\Delta$ indicates the QBM does not generalise
+to the corridor domain without retraining, and that the QBM is tuned
+to the gridworld feature structure (7-dimensional observation vector).
+This is an honest limitation; see \S\ref{sec:limitations}.}
+\label{tab:non_gridworld}
+\begin{tabular}{lll}
+\toprule
+Agent Class & $\langle S_\mathrm{ent}\rangle$ & Std \\
+\midrule
+Survival & 2.2249 & 0.0197 \\
+Instrumental & 2.2598 & 0.0062 \\
+Random & 2.2570 & 0.0163 \\
+\bottomrule
+\end{tabular}
+\end{table}

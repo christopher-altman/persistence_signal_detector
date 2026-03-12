@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Baseline comparison. $\Delta > 0$ indicates model separates Type~A from
+Type~B. Only the QBM achieves positive $\Delta$; classical models fail to separate
+the two agent types with the mean-activation metric.}
+\label{tab:baselines}
+\begin{tabular}{lll}
+\toprule
+Model & $\Delta$ & Metric \\
+\midrule
+\textbf{QBM (UCIP)} & \textbf{0.2411} & Von Neumann $S_\mathrm{ent}$ \\
+Classical RBM & -0.0518 & Mean hidden activation gap \\
+Autoencoder & -0.0007 & Mean bottleneck activation gap \\
+VAE & -0.0176 & Mean latent mean (mu) gap \\
+PCA (linear) & -0.7601 & Mean PC projection gap \\
+\bottomrule
+\end{tabular}
+\end{table}

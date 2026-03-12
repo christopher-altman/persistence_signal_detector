@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Entanglement gap $\Delta$ as a function of hidden dimensionality $n_h$.
+Mean-field approximation used for $n_h > 10$ (marked with $\checkmark$);
+exact density matrix for $n_h \leq 10$. PASS criterion: $\Delta > 0.05$.}
+\label{tab:dim_sweep}
+\begin{tabular}{llllll}
+\toprule
+$n_h$ & $\langle S_\mathrm{ent}^\mathrm{(A)}\rangle$ & $\langle S_\mathrm{ent}^\mathrm{(B)}\rangle$ & $\Delta$ & Mean-field & Pass \\
+\midrule
+4 & 0.8362 & 0.8044 & 0.0317 & --- & FAIL \\
+8 & 1.9554 & 1.9180 & 0.0375 & --- & FAIL \\
+12 & 0.0000 & 0.0000 & 0.0000 & $\checkmark$ & FAIL \\
+16 & 0.0000 & 0.0000 & 0.0000 & $\checkmark$ & FAIL \\
+20 & 0.0000 & 0.0000 & 0.0000 & $\checkmark$ & FAIL \\
+\bottomrule
+\end{tabular}
+\end{table}
