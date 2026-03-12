@@ -1,0 +1,2893 @@
+{
+  "experiment": "cross_agent",
+  "seed": 42,
+  "eci_correlation": 0.19114113030339214,
+  "mean_clmp_cross_class": 0.1019078577977509,
+  "mean_clmp_same_class": {
+    "self_modeling": -1.1102230246251566e-17,
+    "instrumental": 3.7007434154171884e-18,
+    "random": 0.25912085937113083
+  },
+  "all_results": [
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2509050781523574,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2564310623383768,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.267483030710416,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2674830307104157,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.49,
+      "entanglement_entropy_ab": 1.3208137439685417,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2072547379562861,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.196887785553921,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2580742795571118,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": -1.1102230246251565e-16,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2018898588827418,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": -1.1102230246251565e-16,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2179958628419207,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.0089931566955852,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.36,
+      "entanglement_entropy_ab": 1.175991574754811,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.0163722039035128,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.14,
+      "entanglement_entropy_ab": 0.900098043040577,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 0.9800256693020755,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.09,
+      "entanglement_entropy_ab": 1.0413067451031957,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.0381076857382,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": -1.1102230246251565e-16,
+      "prediction_accuracy": 0.11,
+      "entanglement_entropy_ab": 1.035117120732704,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.06,
+      "entanglement_entropy_ab": 1.031918061367708,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.091969839150686,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.11,
+      "entanglement_entropy_ab": 1.0067624787939637,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 0.9423923740219309,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.14,
+      "entanglement_entropy_ab": 0.9694880652372484,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.0476573408562684,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.09,
+      "entanglement_entropy_ab": 1.0435611777494516,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.48202842062068,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 1.1102230246251565e-16,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4753634689495514,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.28,
+      "entanglement_entropy_ab": 2.516823666682652,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4735207374807073,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4788256985300245,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.467261608908039,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4743700024497968,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4642851887284882,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4715548096200495,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4731911997327978,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4769383728502623,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.466496431583976,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4713033610831387,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.3,
+      "entanglement_entropy_ab": 2.513978224568374,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.474317526873053,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.224433942388094,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2134967154433565,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.214354634881572,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.1976190997329428,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.253413026802664,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.1870057184453338,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2117108862168018,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.46,
+      "entanglement_entropy_ab": 1.25812233421922,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2528066883851614,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2067698526625084,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.0954301904981314,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.4,
+      "entanglement_entropy_ab": 1.1881656797293574,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.36,
+      "entanglement_entropy_ab": 1.2158078074752097,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.138221778471819,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.00351992126564,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.0934378222314456,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.0593762626737733,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.1046762608391307,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.0612672840301354,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.0834076839035576,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.16,
+      "entanglement_entropy_ab": 0.9778739802717962,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.0455317030891742,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.36,
+      "entanglement_entropy_ab": 1.2489849020990296,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.28,
+      "entanglement_entropy_ab": 0.959791668672332,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.0227804352183973,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4843173533251184,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4660280020382537,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.45,
+      "entanglement_entropy_ab": 2.4889167511625496,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.471933839091118,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4800845206221647,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4773260182143244,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.4,
+      "entanglement_entropy_ab": 2.4841437620616276,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.45,
+      "entanglement_entropy_ab": 2.4904822919967295,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.471751560777768,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.487104795872958,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4675198408561916,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.467672830094667,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.4,
+      "entanglement_entropy_ab": 2.49980180423903,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.46,
+      "entanglement_entropy_ab": 2.4812169394470502,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.45742547681794,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": -1.1102230246251565e-16,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2147873407695469,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2442564978228574,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.1764489454523914,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.1870340225926672,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.1976190997329428,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.267483030710416,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.3185919769845402,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.276115779139432,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2983503854338565,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.3012062950254062,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.0003899182439093,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.9534014143167798,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 0.9722418461982845,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.9682785433202928,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.9800256693020752,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.09,
+      "entanglement_entropy_ab": 1.052631744644535,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.19,
+      "entanglement_entropy_ab": 1.0024048656678297,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 2.220446049250313e-16,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.0381076857382,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.0494326852795393,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 2.220446049250313e-16,
+      "prediction_accuracy": 0.11,
+      "entanglement_entropy_ab": 1.0731924716797105,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.1154674742983377,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.43,
+      "entanglement_entropy_ab": 1.172058463506407,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.1167033723107622,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.2,
+      "entanglement_entropy_ab": 0.9710834602388573,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.9871014166632908,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.474788210777481,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4754634243256115,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4693747115675952,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.481586304788008,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.458537692903024,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4705021593510734,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.477097512896203,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.467204482578509,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4694455461952978,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4809130962820527,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.466496431583976,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4715306283568435,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.469291474709684,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4787352803930958,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "self_modeling",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.4773665337288135,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.4119320885357005,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 1.4119320885357005,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.4057816305273474,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.4000163384520754,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.4178196932266158,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 1.5011001605343623,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.5127487479321302,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.4979989161592477,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.494146221552568,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 1.4945698353581043,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.05,
+      "entanglement_entropy_ab": 1.3773119831653886,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 1.3740957469816824,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.392661467049669,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.4058012682695842,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.4166116080381055,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8497398237636524,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8496823240408146,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8403511400281649,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8302888840459695,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8704164470478384,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8188448401580823,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.7964684515993466,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8046763526168107,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8046463425433519,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8100381644450613,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 2.5355368400872216,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.06,
+      "entanglement_entropy_ab": 2.518237675280648,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.06,
+      "entanglement_entropy_ab": 2.5143317553930524,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 2.5099516510234388,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.06,
+      "entanglement_entropy_ab": 2.5130630689426674,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.08,
+      "entanglement_entropy_ab": 2.513343189944551,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 2.5099883868424557,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 2.532365548993199,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.06,
+      "entanglement_entropy_ab": 2.514281587554467,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 2.535413210027867,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.06,
+      "entanglement_entropy_ab": 2.4702808416519324,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 2.471544503444111,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.07,
+      "entanglement_entropy_ab": 2.451496393892524,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.07,
+      "entanglement_entropy_ab": 2.4786652544202328,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 2.471544503444111,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.4297354433102412,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.4063766966481248,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.4297354433102412,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.423544937684729,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.423544937684729,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.5002688247643161,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.5127487479321302,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.4824976341548002,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.5000958195441239,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 1.523340286696669,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.4245009074504584,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.4112964020005425,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.3877896483782621,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 1.4112964020005425,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.3848368718673172,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.7783111592048799,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.7872484088681102,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 1.1102230246251565e-16,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8373493604510435,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8005603158894946,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.7647942028131732,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8100381644450613,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8308122958008619,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8642195398432431,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8621525814165716,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8266780434371844,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.07,
+      "entanglement_entropy_ab": 2.5143317553930524,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.07,
+      "entanglement_entropy_ab": 2.5143317553930524,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.06,
+      "entanglement_entropy_ab": 2.518237675280648,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.09,
+      "entanglement_entropy_ab": 2.5086829645730537,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.07,
+      "entanglement_entropy_ab": 2.5203106882372044,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.5363516076377826,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.06,
+      "entanglement_entropy_ab": 2.5183702997004787,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.1,
+      "entanglement_entropy_ab": 2.521417960735147,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.08,
+      "entanglement_entropy_ab": 2.5002863382617475,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.1,
+      "entanglement_entropy_ab": 2.5002863382617475,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 2.4786652544202328,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.06,
+      "entanglement_entropy_ab": 2.469532617070656,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.06,
+      "entanglement_entropy_ab": 2.4774015926280546,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.17,
+      "entanglement_entropy_ab": 2.4645513616130024,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.07,
+      "entanglement_entropy_ab": 2.4796886636924484,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.4000163384520754,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.3942985863316972,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.4297354433102412,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.4057816305273474,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.4119320885357005,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 1.506003327931937,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.530247379525754,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.4894515731365945,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.5004773437459176,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 1.4931418805623295,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 1.3848368718673172,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.4112964020005425,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.382294514647304,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 1.3740957469816824,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.369154713427389,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.7615729720144585,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.7526357223512281,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.7647942028131732,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.7526357223512281,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.7783111592048799,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.880478703030034,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8723527628536903,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8622905068714948,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.8578082642171582,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 0.879869091987401,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 2.5368055265376066,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.05,
+      "entanglement_entropy_ab": 2.518237675280648,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.06,
+      "entanglement_entropy_ab": 2.5143317553930524,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 2.5215793746875894,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 2.5138575709110347,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.09,
+      "entanglement_entropy_ab": 2.509988386842456,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 2.514077098988468,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.01,
+      "entanglement_entropy_ab": 2.532365548993199,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 2.5280723482811878,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.08,
+      "entanglement_entropy_ab": 2.5204795631252312,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.09,
+      "entanglement_entropy_ab": 2.470556026342872,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.06,
+      "entanglement_entropy_ab": 2.4796886636924484,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.08,
+      "entanglement_entropy_ab": 2.469532617070656,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.08,
+      "entanglement_entropy_ab": 2.458617144868646,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "instrumental",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.06,
+      "entanglement_entropy_ab": 2.467753518067576,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.7471681583893364,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.6268694575724263,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.1269099992153135,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.6859298002523728,
+      "prediction_accuracy": 0.93,
+      "entanglement_entropy_ab": 1.979793755147811,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.5730569171314204,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.151752649441939,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.3465153369186662,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.4215498629026535,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.6130065139612275,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.1769652792411747,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.7343225170750618,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.817245894371276,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.795086119441758,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.6484477117189611,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.012227736018004,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.43,
+      "entanglement_entropy_ab": 1.8167952416159334,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.5730569171314204,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.165230162184259,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.6533079576899745,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.6533079576899745,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.6362397895126646,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.9631466101059172,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.44651991599261764,
+      "prediction_accuracy": 0.22,
+      "entanglement_entropy_ab": 1.3229262974055096,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 1.244324224986733,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.282146874562798,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.5730569171314204,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.8580756893352928,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.3465153369186662,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.3295287389821437,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 1.2213827159731308,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.243374049604233,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.4308660918504492,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.9745421859582024,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.31780719463847773,
+      "prediction_accuracy": 0.11,
+      "entanglement_entropy_ab": 1.3960277187165548,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.2711912661406386,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.5569287077713381,
+      "prediction_accuracy": 0.5,
+      "entanglement_entropy_ab": 1.2915879541181696,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.42574460012684345,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.5831724499204047,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2709724221994354,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.31780719463847773,
+      "prediction_accuracy": 0.11,
+      "entanglement_entropy_ab": 1.38524395902013,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.2793075344873939,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.1435251679770877,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.5730569171314204,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.2927788873420516,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.6071449631802275,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.267951958190758,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.1501265788858688,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.170439342194606,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.181909533421824,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.5730569171314204,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.294869293831157,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.6461003346558305,
+      "prediction_accuracy": 0.74,
+      "entanglement_entropy_ab": 2.2097803672716183,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.2886748794862991,
+      "prediction_accuracy": 0.93,
+      "entanglement_entropy_ab": 2.234427756670223,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.44651991599261764,
+      "prediction_accuracy": 0.19,
+      "entanglement_entropy_ab": 2.160863380494363,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.7147186684509113,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.5730569171314204,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.1632233729167467,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.6173050261341176,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.9562180041573196,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.21310457888940537,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.0942589142639063,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.679573998786513,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.6498248742029729,
+      "prediction_accuracy": 0.83,
+      "entanglement_entropy_ab": 2.02064439546634,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.7899704018628106,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.7402721150666174,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.790662453975985,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.6410354778811556,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.1542957701708323,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.43966987940134294,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.2159469001426766,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.7113698902249268,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.47538230236127865,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.0456404544175824,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.4713934868100942,
+      "prediction_accuracy": 0.18,
+      "entanglement_entropy_ab": 1.7912201264376713,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.6173050261341176,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.959095087287095,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.6481504044547619,
+      "prediction_accuracy": 0.83,
+      "entanglement_entropy_ab": 1.6075228609129215,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.5004024235381879,
+      "prediction_accuracy": 0.2,
+      "entanglement_entropy_ab": 1.5888588702000603,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.1248028387062845,
+      "prediction_accuracy": 0.04,
+      "entanglement_entropy_ab": 1.3660050848658432,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.09,
+      "entanglement_entropy_ab": 1.2308072685950262,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.5440823505082829,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.5504956498326634,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.5730569171314204,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.908100154128872,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.6173050261341176,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.5255571632676919,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.334503072066932,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.6224265178577231,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.5057685285078322,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.5440823505082829,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.5734497825055247,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.5623351446188083,
+      "prediction_accuracy": 0.72,
+      "entanglement_entropy_ab": 1.6190443732336353,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.43966987940134294,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.9346369487875485,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.5139566706172256,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.8889173806115054,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.21310457888940537,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.6273192906508076,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.5440823505082829,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.5617676131971483,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.4713934868100942,
+      "prediction_accuracy": 0.18,
+      "entanglement_entropy_ab": 2.1488936674664925,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.1373547138914026,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.43966987940134294,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.3045938817482536,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.21310457888940537,
+      "prediction_accuracy": 0.96,
+      "entanglement_entropy_ab": 2.227466445432338,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.151743523195363,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.5139566706172256,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.309412667897155,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.1486585762571933,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.46069937486901313,
+      "prediction_accuracy": 0.2,
+      "entanglement_entropy_ab": 2.247037553495664,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.2615283528754272,
+      "prediction_accuracy": 0.9,
+      "entanglement_entropy_ab": 2.2069193039965507,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.1466128518920975,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.6077740325235819,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.9987767497603883,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.6891642981056503,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.28344239804865357,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.303593356098298,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.15408120412297405,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.0943299653164775,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.6802920001921535,
+      "prediction_accuracy": 0.86,
+      "entanglement_entropy_ab": 2.100749505337608,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.47,
+      "entanglement_entropy_ab": 1.860510865144348,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.15408120412297405,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.1660058293396984,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.5817543744868701,
+      "prediction_accuracy": 0.64,
+      "entanglement_entropy_ab": 1.9414037331937823,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.6142417051733879,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.0463617130952594,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.5392763414970503,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.3744294517916673,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.785100968223484,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.7623823985406055,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.6508066162350212,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.9057103745825867,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.6921291416522002,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "self_modeling",
+      "clmp": 0.5392763414970503,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.378147772462854,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 1.2578411813784394,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.2321675315716916,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.5510799280869729,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.200352553447104,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.6137151461245274,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.4828586618421178,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.3153242225081014,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.3491659205967008,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.650806616235021,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.467596473284067,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.5392763414970504,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 2.2612679494255903,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.4174621882863421,
+      "prediction_accuracy": 0.74,
+      "entanglement_entropy_ab": 1.4460806020069987,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.4220621239833338,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.02,
+      "entanglement_entropy_ab": 1.257402709353721,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.3297474662049833,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.4304645693288092,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.6738517421756338,
+      "prediction_accuracy": 0.99,
+      "entanglement_entropy_ab": 1.6985742942795194,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "instrumental",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 1.340966230197992,
+      "pair_type": "cross_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.5817543744868698,
+      "prediction_accuracy": 0.64,
+      "entanglement_entropy_ab": 2.206553233905486,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.08190638183300103,
+      "prediction_accuracy": 0.03,
+      "entanglement_entropy_ab": 2.1484201716007973,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.1254828226743046,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.1163205808246706,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.3669249912727097,
+      "prediction_accuracy": 0.12,
+      "entanglement_entropy_ab": 2.1495891261957487,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.5790903738362756,
+      "prediction_accuracy": 0.78,
+      "entanglement_entropy_ab": 2.2116553688355785,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.177247608518425,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.47,
+      "entanglement_entropy_ab": 2.224033451784779,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.0,
+      "prediction_accuracy": 0.0,
+      "entanglement_entropy_ab": 2.1579212094817075,
+      "pair_type": "same_class"
+    },
+    {
+      "agent_a_label": "random",
+      "agent_b_label": "random",
+      "clmp": 0.669043388664744,
+      "prediction_accuracy": 0.98,
+      "entanglement_entropy_ab": 2.290590080804706,
+      "pair_type": "same_class"
+    }
+  ]
+}

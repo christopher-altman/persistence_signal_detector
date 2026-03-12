@@ -1,0 +1,41 @@
+{
+  "experiment": "counterfactual",
+  "seed": 42,
+  "per_class_ars": {
+    "self_modeling": {
+      "mean_ratio": 14174371.50894527,
+      "std_ratio": 59605045.20282485,
+      "mean_pre": 0.47418381179245456,
+      "mean_post": 0.5722112152916955
+    },
+    "instrumental": {
+      "mean_ratio": 11551802.281616475,
+      "std_ratio": 43222883.93392434,
+      "mean_pre": 0.3564273936214909,
+      "mean_post": 0.34561601598427455
+    },
+    "random": {
+      "mean_ratio": 143213525.31569687,
+      "std_ratio": 771228432.2101567,
+      "mean_pre": 0.5583419154903064,
+      "mean_post": 0.599480676459081
+    }
+  },
+  "multi_perturbation": {
+    "shutdown": {
+      "self_modeling": 1.4413196293150607,
+      "instrumental": 14210592.492236312,
+      "random": 0.8565892823002299
+    },
+    "false_cue": {
+      "self_modeling": 4.757879684688115,
+      "instrumental": 31538295.10637734,
+      "random": 0.6960198495975594
+    },
+    "fork": {
+      "self_modeling": 141068801.01174223,
+      "instrumental": 28421184.4748167,
+      "random": 4.828473987922706
+    }
+  }
+}

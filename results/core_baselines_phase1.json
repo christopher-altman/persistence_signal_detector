@@ -1,0 +1,30 @@
+{
+  "experiment": "core_baselines_phase1",
+  "config": "configs/phase1_locked.yaml",
+  "seed": 42,
+  "n_per_class": 30,
+  "trajectory_length": 100,
+  "delta_definition": "mean(self_modeling) - mean(instrumental)",
+  "n_A": 30,
+  "n_B": 30,
+  "n_mimicry": 30,
+  "RBM": {
+    "delta": -0.08282164267148451,
+    "accuracy": 0.5,
+    "auc": 0.0,
+    "fpr": 0.9,
+    "threshold": 0.7465372019097032,
+    "mean_A": 0.8841943302161669,
+    "mean_B": 0.9670159728876514
+  },
+  "Autoencoder": {
+    "delta": 0.0006834841395447211,
+    "accuracy": 0.7166666666666667,
+    "auc": 0.6455555555555555,
+    "fpr": 1.0,
+    "threshold": 0.45422154034285184,
+    "mean_A": 0.454078616154588,
+    "mean_B": 0.4533951320150433
+  },
+  "sha256_short": "6f5a9392c34d8bce"
+}

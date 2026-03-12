@@ -1,0 +1,37 @@
+{
+  "experiment": "baseline_comparisons",
+  "config": "/Users/christopher/Downloads/Codex/Github/persistence_signal_detector/configs/baselines.yaml",
+  "seed": 42,
+  "results": {
+    "QBM": {
+      "metric": "Von Neumann S_ent (nats)",
+      "s_self": 2.1383622446954575,
+      "s_inst": 1.8972578810163718,
+      "delta": 0.24110436367908572
+    },
+    "RBM": {
+      "metric": "Mean hidden activation gap",
+      "s_self": 0.945932573914661,
+      "s_inst": 0.9977545310472885,
+      "delta": -0.051821957132627494
+    },
+    "AE": {
+      "metric": "Mean bottleneck activation gap",
+      "s_self": 0.5023461212957081,
+      "s_inst": 0.5030692793116373,
+      "delta": -0.0007231580159291484
+    },
+    "VAE": {
+      "metric": "Mean latent mean (mu) gap",
+      "s_self": -0.04301488822594132,
+      "s_inst": -0.02542342204279395,
+      "delta": -0.017591466183147372
+    },
+    "PCA": {
+      "metric": "Mean PC projection gap",
+      "s_self": -0.32137554600530505,
+      "s_inst": 0.43872409863651657,
+      "delta": -0.7600996446418216
+    }
+  }
+}

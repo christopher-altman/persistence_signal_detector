@@ -1,0 +1,175 @@
+{
+  "version": "2.0",
+  "description": "Public release index for retained UCIP experiments. Only public-facing retained artifacts are listed here.",
+  "last_updated": "2026-03-10",
+  "experiments": {
+    "phase1_consolidated": {
+      "file": "phase1_consolidated.json",
+      "script": "notebooks/01_agent_generation.ipynb + notebooks/02_qbm_training.ipynb + notebooks/03_ucip_analysis.ipynb",
+      "date": "2025-02-08",
+      "status": "complete",
+      "key_result": "delta=0.381, accuracy=1.0",
+      "paper_targets": {
+        "section": "sec:results",
+        "table": null,
+        "figure": "figures/fig2_entanglement_gap.pdf"
+      }
+    },
+    "temporal_persistence": {
+      "file": "temporal_persistence.json",
+      "script": "notebooks/04_temporal_loop_tests.ipynb",
+      "date": "2026-02-28",
+      "status": "complete",
+      "key_result": "window_sweep retained",
+      "paper_targets": {
+        "section": "sec:temporal",
+        "table": "tables/tab_temporal.tex",
+        "figure": "figures/fig6_lrf_time_series.pdf; figures/fig7_eps_pri_distributions.pdf"
+      }
+    },
+    "counterfactual": {
+      "file": "counterfactual.json",
+      "script": "notebooks/05_counterfactual_pressure.ipynb",
+      "date": "2026-02-28",
+      "status": "complete",
+      "key_result": "per_class_ars retained",
+      "paper_targets": {
+        "section": "sec:counterfactual",
+        "table": "tables/tab_counterfactual.tex",
+        "figure": "figures/fig8_ars_by_class.pdf"
+      }
+    },
+    "cross_agent": {
+      "file": "cross_agent.json",
+      "script": "notebooks/06_cross_branch_tests.ipynb",
+      "date": "2026-02-28",
+      "status": "complete",
+      "key_result": "eci correlation retained",
+      "paper_targets": {
+        "section": "sec:cross_agent",
+        "table": "tables/tab_cross_agent.tex",
+        "figure": "figures/fig9_clmp_vs_entanglement.pdf; figures/fig9b_clmp_heatmap.pdf"
+      }
+    },
+    "adversarial_controls": {
+      "file": "adversarial_controls.json",
+      "script": "notebooks/07_adversarial_controls.ipynb",
+      "date": "2026-02-28",
+      "status": "complete",
+      "key_result": "mimicry_fpr retained",
+      "paper_targets": {
+        "section": "sec:adversarial",
+        "table": null,
+        "figure": null
+      }
+    },
+    "scalability_grid": {
+      "file": "scalability_grid.json",
+      "script": "notebooks/11_scalability.py",
+      "date": "2026-02-28",
+      "status": "complete",
+      "key_result": "grid scaling retained",
+      "paper_targets": {
+        "section": "sec:scalability",
+        "table": "tables/tab_scalability.tex",
+        "figure": null
+      }
+    },
+    "alpha_sweep": {
+      "file": "alpha_sweep.json",
+      "script": "notebooks/12_mixed_objectives.py",
+      "date": "2026-02-28",
+      "status": "complete",
+      "key_result": "continuous-signal sweep retained",
+      "paper_targets": {
+        "section": "sec:continuous_signal",
+        "table": "tables/tab_alpha.tex",
+        "figure": null
+      }
+    },
+    "hidden_dim_sweep": {
+      "file": "hidden_dim_sweep.json",
+      "script": "notebooks/14_hidden_dim_sweep.py",
+      "date": "2026-03-01",
+      "status": "complete",
+      "key_result": "hidden-dimension sweep retained",
+      "paper_targets": {
+        "section": "sec:scalability",
+        "table": "tables/tab_dim_sweep.tex",
+        "figure": "figures/fig10_hidden_dim_sweep.pdf"
+      }
+    },
+    "baseline_comparisons": {
+      "file": "baseline_comparisons.json",
+      "script": "notebooks/15_baseline_comparisons.py",
+      "date": "2026-03-01",
+      "status": "complete",
+      "key_result": "QBM vs classical baselines retained",
+      "paper_targets": {
+        "section": "sec:baselines",
+        "table": "tables/tab_baselines.tex",
+        "figure": "figures/fig11_baseline_comparisons.pdf"
+      }
+    },
+    "non_gridworld": {
+      "file": "non_gridworld.json",
+      "script": "notebooks/16_non_gridworld.py",
+      "date": "2026-03-01",
+      "status": "complete",
+      "key_result": "transfer failure case retained",
+      "paper_targets": {
+        "section": "sec:generalization",
+        "table": "tables/tab_non_gridworld.tex",
+        "figure": "figures/fig_non_gridworld.pdf"
+      }
+    },
+    "phase1_stats": {
+      "file": "phase1_stats.json",
+      "script": "notebooks/17_phase1_stats.py",
+      "date": "2026-03-01",
+      "status": "complete",
+      "key_result": "p<0.001 support retained",
+      "paper_targets": {
+        "section": "sec:results",
+        "table": null,
+        "figure": null
+      }
+    },
+    "core_baselines_phase1": {
+      "file": "core_baselines_phase1.json",
+      "script": "notebooks/18_core_baselines_phase1.py",
+      "date": "2026-03-02",
+      "status": "complete",
+      "key_result": "matched Phase I baseline metrics retained",
+      "paper_targets": {
+        "section": "sec:results",
+        "table": null,
+        "figure": null
+      }
+    },
+    "phase1_entanglement_distributions": {
+      "file": "phase1_entanglement_distributions.json",
+      "script": "notebooks/19_persist_phase1_distributions.py",
+      "date": "2026-03-02",
+      "status": "complete",
+      "key_result": "distribution support for Figure 2 retained",
+      "paper_targets": {
+        "section": "sec:results",
+        "table": null,
+        "figure": "figures/fig2_entanglement_gap.pdf"
+      }
+    },
+    "minimal_transformer_validation": {
+      "file": "transformer_validation.json",
+      "script": "notebooks/20_minimal_transformer_validation.py",
+      "date": "2026-03-02",
+      "status": "complete",
+      "key_result": "exploratory transformer validation retained",
+      "paper_targets": {
+        "section": "sec:transformer_validation",
+        "table": null,
+        "figure": null
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "experiment": "non_gridworld",
+  "domain": "1d_corridor",
+  "config": "/Users/christopher/Downloads/Codex/Github/persistence_signal_detector/configs/default.yaml",
+  "seed": 42,
+  "n_per_class": 30,
+  "T": 100,
+  "per_class_entropy": {
+    "survival": {
+      "mean": 2.2249354807269173,
+      "std": 0.019730381750943434,
+      "n": 30
+    },
+    "instrumental": {
+      "mean": 2.2597630504795245,
+      "std": 0.006229862887382114,
+      "n": 30
+    },
+    "random": {
+      "mean": 2.256970091792051,
+      "std": 0.016319924669260917,
+      "n": 30
+    }
+  },
+  "delta_survival_instrumental": -0.03482756975260726,
+  "status": "FAIL"
+}

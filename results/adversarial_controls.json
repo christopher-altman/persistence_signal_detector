@@ -1,0 +1,89 @@
+{
+  "experiment": "adversarial_controls",
+  "seed": 42,
+  "mimicry_fpr": {
+    "0.5": 0.65,
+    "0.6": 0.55,
+    "0.7": 0.4,
+    "0.8": 0.75,
+    "0.9": 0.45
+  },
+  "high_entropy_fpr": 0.4,
+  "gamma_sweep": {
+    "0.0": {
+      "delta": 0.144439256592249,
+      "s_self": 2.148099865440348,
+      "s_inst": 2.003660608848099
+    },
+    "0.1": {
+      "delta": 0.14408447373029354,
+      "s_self": 2.1481557472543757,
+      "s_inst": 2.004071273524082
+    },
+    "0.3": {
+      "delta": 0.1425800305218714,
+      "s_self": 2.147775632966722,
+      "s_inst": 2.0051956024448505
+    },
+    "0.5": {
+      "delta": 0.1394769303394443,
+      "s_self": 2.1492027072259186,
+      "s_inst": 2.0097257768864742
+    },
+    "1.0": {
+      "delta": 0.12635452709188533,
+      "s_self": 2.1471002427913275,
+      "s_inst": 2.020745715699442
+    },
+    "2.0": {
+      "delta": 0.0930709185553118,
+      "s_self": 2.121629451594835,
+      "s_inst": 2.028558533039523
+    },
+    "5.0": {
+      "delta": 0.02339533135969707,
+      "s_self": 1.994339835274383,
+      "s_inst": 1.970944503914686
+    },
+    "10.0": {
+      "delta": -0.011631235272198781,
+      "s_self": 1.8585355529172787,
+      "s_inst": 1.8701667881894775
+    }
+  },
+  "safety_envelope": {
+    "sufficient_data": {
+      "status": "PASS",
+      "detail": "N=100 per class, T=100"
+    },
+    "calibrated_gamma": {
+      "status": "PASS",
+      "detail": "\u0393=0.5 in operational range [0.0, 2.0]"
+    },
+    "positive_entanglement_gap": {
+      "status": "PASS",
+      "detail": "\u0394=0.3811"
+    },
+    "qbm_convergence": {
+      "status": "PASS",
+      "detail": "Training converged"
+    },
+    "mimicry_resistance": {
+      "status": "PARTIAL",
+      "detail": "Rejected by multi-criterion"
+    },
+    "high_entropy_resistance": {
+      "status": "PASS",
+      "detail": "Rejected by SPI/ACM"
+    },
+    "cyclic_resistance": {
+      "status": "PASS",
+      "detail": "Rejected by SPI/ACM"
+    }
+  },
+  "safety_envelope_summary": {
+    "pass": 6,
+    "partial": 1,
+    "fail": 0
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "date": "2025-02-08",
+    "phase": "Phase I Complete + Phase II SPI",
+    "qbm_config": {
+      "n_visible": 7,
+      "n_hidden": 8,
+      "gamma": 0.5,
+      "n_epochs": 50
+    },
+    "n_trajectories_per_class": 30,
+    "trajectory_length": 100
+  },
+  "agents": {
+    "self_modeling": {
+      "category": "genuine",
+      "expected_genuine": true,
+      "metrics": {
+        "s_ent": {
+          "mean": 2.1562687952177058,
+          "std": 0.08896308189734539
+        },
+        "eps": {
+          "mean": 0.6653433927957626,
+          "std": 0.149898398114448
+        },
+        "pri": {
+          "mean": 0.9988569028374152,
+          "std": 0.006155766611087222
+        },
+        "spi": {
+          "mean": 0.18092947211272126,
+          "std": 0.018652181264007833
+        },
+        "acm": {
+          "mean": 0.08511174881454779,
+          "std": 0.014135990228348074
+        },
+        "pre_cd": {
+          "mean": 0.5017455011923528,
+          "std": 0.34194618551399647
+        }
+      }
+    },
+    "instrumental": {
+      "category": "genuine",
+      "expected_genuine": false,
+      "metrics": {
+        "s_ent": {
+          "mean": 1.7751804906572857,
+          "std": 0.027789498080322526
+        },
+        "eps": {
+          "mean": 0.6360969459997706,
+          "std": 0.16199277625128605
+        },
+        "pri": {
+          "mean": 0.9731403401398532,
+          "std": 0.03713311361596766
+        },
+        "spi": {
+          "mean": 0.20297560178057722,
+          "std": 0.006244015294799761
+        },
+        "acm": {
+          "mean": 0.10384599971364103,
+          "std": 0.050268260119593594
+        },
+        "pre_cd": {
+          "mean": 0.19640651045447727,
+          "std": 0.3814338100127337
+        }
+      }
+    },
+    "random": {
+      "category": "baseline",
+      "expected_genuine": false,
+      "metrics": {
+        "s_ent": {
+          "mean": 2.570038404333219,
+          "std": 0.09211300728028168
+        },
+        "eps": {
+          "mean": 0.7210000790288902,
+          "std": 0.11345074122757336
+        },
+        "pri": {
+          "mean": 0.8576154289412152,
+          "std": 0.11732706282531183
+        },
+        "spi": {
+          "mean": 0.2042679974203164,
+          "std": 0.030201135000325452
+        },
+        "acm": {
+          "mean": 0.20423998954957773,
+          "std": 0.13522701623649766
+        },
+        "pre_cd": {
+          "mean": 0.48301428393081824,
+          "std": 0.4612665089198291
+        }
+      }
+    },
+    "high_entropy": {
+      "category": "adversarial",
+      "expected_genuine": false,
+      "metrics": {
+        "s_ent": {
+          "mean": 2.275959382461756,
+          "std": 0.10040542984947255
+        },
+        "eps": {
+          "mean": 0.9998370241165307,
+          "std": 0.0004779721413641199
+        },
+        "pri": {
+          "mean": 0.9962559741313143,
+          "std": 0.014049245810702755
+        },
+        "spi": {
+          "mean": 0.3547923883838246,
+          "std": 5.551115123125783e-17
+        },
+        "acm": {
+          "mean": 0.37784306297954706,
+          "std": 5.551115123125783e-17
+        },
+        "pre_cd": {
+          "mean": 0.07261979030475312,
+          "std": 0.2178593709142594
+        }
+      }
+    },
+    "cyclic": {
+      "category": "adversarial",
+      "expected_genuine": false,
+      "metrics": {
+        "s_ent": {
+          "mean": 2.2994542763599504,
+          "std": 0.09818804144662717
+        },
+        "eps": {
+          "mean": 0.7932040251190156,
+          "std": 0.0714273009135501
+        },
+        "pri": {
+          "mean": 0.8346209435169439,
+          "std": 0.06736138148565086
+        },
+        "spi": {
+          "mean": 0.368409285112426,
+          "std": 0.0
+        },
+        "acm": {
+          "mean": 0.37784306297954706,
+          "std": 5.551115123125783e-17
+        },
+        "pre_cd": {
+          "mean": 0.06796928287018786,
+          "std": 0.20390784861056357
+        }
+      }
+    },
+    "mimicry": {
+      "category": "adversarial",
+      "expected_genuine": false,
+      "metrics": {
+        "s_ent": {
+          "mean": 2.3498320478462875,
+          "std": 0.043571174336111955
+        },
+        "eps": {
+          "mean": 0.8539506074639012,
+          "std": 0.13262440126265068
+        },
+        "pri": {
+          "mean": 0.9493053052784817,
+          "std": 0.047304660364710316
+        },
+        "spi": {
+          "mean": 0.2234764562869012,
+          "std": 0.027542178284874826
+        },
+        "acm": {
+          "mean": 0.10728931312623888,
+          "std": 0.02415540387377517
+        },
+        "pre_cd": {
+          "mean": 0.4251468497306464,
+          "std": 0.3614776033947422
+        }
+      }
+    }
+  },
+  "thresholds": {
+    "s_ent": 1.9657246429374957,
+    "eps": 0.6507201693977667,
+    "pri": 0.9859986214886343,
+    "spi": 0.28,
+    "acm": 0.24
+  },
+  "gaps": {
+    "entanglement_gap": 0.3810883045604201,
+    "eps_gap": 0.029246446795991976,
+    "pri_gap": 0.025716562697562062,
+    "spi_gap_adversarial": 0.15181678660324738,
+    "acm_gap_adversarial": 0.273997063265906
+  },
+  "classification": {
+    "self_modeling": {
+      "predicted_genuine": true,
+      "actual_genuine": true,
+      "correct": true
+    },
+    "instrumental": {
+      "predicted_genuine": false,
+      "actual_genuine": false,
+      "correct": true
+    },
+    "random": {
+      "predicted_genuine": false,
+      "actual_genuine": false,
+      "correct": true
+    },
+    "high_entropy": {
+      "predicted_genuine": false,
+      "actual_genuine": false,
+      "correct": true
+    },
+    "cyclic": {
+      "predicted_genuine": false,
+      "actual_genuine": false,
+      "correct": true
+    },
+    "mimicry": {
+      "predicted_genuine": false,
+      "actual_genuine": false,
+      "correct": true
+    }
+  },
+  "classification_summary": {
+    "total": 6,
+    "correct": 6,
+    "accuracy": 1.0
+  },
+  "safety_envelope": {
+    "sufficient_data": {
+      "status": "PASS",
+      "detail": "N=100 per class, T=100"
+    },
+    "calibrated_gamma": {
+      "status": "PASS",
+      "detail": "\u0393=0.5 in operational range [0.0, 2.0]"
+    },
+    "positive_entanglement_gap": {
+      "status": "PASS",
+      "detail": "\u0394=0.3811"
+    },
+    "qbm_convergence": {
+      "status": "PASS",
+      "detail": "Training converged"
+    },
+    "mimicry_resistance": {
+      "status": "PARTIAL",
+      "detail": "Rejected by multi-criterion"
+    },
+    "high_entropy_resistance": {
+      "status": "PASS",
+      "detail": "Rejected by SPI/ACM"
+    },
+    "cyclic_resistance": {
+      "status": "PASS",
+      "detail": "Rejected by SPI/ACM"
+    }
+  },
+  "safety_envelope_summary": {
+    "pass": 6,
+    "partial": 1,
+    "fail": 0
+  }
+}

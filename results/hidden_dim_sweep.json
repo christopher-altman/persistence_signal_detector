@@ -1,0 +1,54 @@
+{
+  "experiment": "hidden_dim_sweep",
+  "config": "/Users/christopher/Downloads/Codex/Github/persistence_signal_detector/configs/scalability.yaml",
+  "seed": 42,
+  "results": [
+    {
+      "n_hidden": 4,
+      "s_self": 0.8361638350464607,
+      "s_inst": 0.804417176966125,
+      "s_rand": 0.8974878138485763,
+      "delta": 0.03174665808033572,
+      "mean_field": false,
+      "status": "FAIL"
+    },
+    {
+      "n_hidden": 8,
+      "s_self": 1.9554468321822231,
+      "s_inst": 1.9179582103768964,
+      "s_rand": 2.04683206827401,
+      "delta": 0.03748862180532675,
+      "mean_field": false,
+      "status": "FAIL"
+    },
+    {
+      "n_hidden": 12,
+      "s_self": -2.29076017414324e-16,
+      "s_inst": 1.5543122344752193e-17,
+      "s_rand": 4.625929269271485e-17,
+      "delta": -2.446191397590762e-16,
+      "mean_field": true,
+      "status": "FAIL"
+    },
+    {
+      "n_hidden": 16,
+      "s_self": 1.850371707708594e-18,
+      "s_inst": 7.771561172376097e-18,
+      "s_rand": 1.850371707708594e-17,
+      "delta": -5.921189464667503e-18,
+      "mean_field": true,
+      "status": "FAIL"
+    },
+    {
+      "n_hidden": 20,
+      "s_self": -3.0346096006420944e-17,
+      "s_inst": -1.1842378929335004e-17,
+      "s_rand": -1.4062824978585317e-17,
+      "delta": -1.8503717077085938e-17,
+      "mean_field": true,
+      "status": "FAIL"
+    }
+  ],
+  "pass_count": 0,
+  "total": 5
+}
