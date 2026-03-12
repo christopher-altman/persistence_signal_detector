@@ -1,0 +1,61 @@
+# Baseline Comparison Configuration
+# Answers: "Why quantum?" — QBM vs classical latent models.
+# All models use matched latent dimensionality (n_components) for fair comparison.
+
+seed: 42
+
+dataset:
+  n_per_class: 100
+  trajectory_length: 100
+  use_self_modeling: true
+
+baselines:
+  models: [qbm, rbm, autoencoder, vae, pca]
+  n_components: 8    # shared latent dim across all models (= QBM n_hidden)
+
+# --- Variational Autoencoder ---
+vae:
+  n_input: 7
+  n_latent: 8
+  n_encoder: 32
+  learning_rate: 0.005
+  n_epochs: 100
+  batch_size: 32
+  kl_weight: 1.0     # standard VAE (beta=1); increase for beta-VAE regularization
+  seed: 42
+
+# --- Classical RBM ---
+rbm:
+  n_visible: 7
+  n_hidden: 8
+  learning_rate: 0.01
+  cd_steps: 1
+  n_epochs: 50
+  batch_size: 32
+  seed: 42
+
+# --- Autoencoder ---
+autoencoder:
+  n_input: 7
+  n_bottleneck: 8
+  n_encoder: 32
+  learning_rate: 0.005
+  n_epochs: 100
+  batch_size: 32
+  seed: 42
+
+# --- PCA ---
+pca:
+  n_components: 8    # matches other models' latent dim
+
+# --- QBM (same as default; repeated here for standalone config completeness) ---
+qbm:
+  n_visible: 7
+  n_hidden: 8
+  gamma: 0.5
+  beta: 1.0
+  learning_rate: 0.01
+  cd_steps: 1
+  n_epochs: 50
+  batch_size: 64
+  seed: 42

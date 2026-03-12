@@ -1,0 +1,52 @@
+# Phase 1 locked configuration
+# DO NOT MODIFY — these are the exact parameters used to produce all
+# published Phase I results (phase1_consolidated.json, 2025-02-08).
+#
+# NOTE: default.yaml has been updated for future experiments and
+# differs in two parameters:
+#   batch_size: default.yaml=64, phase1=32
+#   n_per_class: default.yaml=100, phase1=30
+#
+# Earlier ablation-only runs used smaller datasets and 30 epochs.
+# They are not part of the retained canonical paper bundle.
+
+qbm:
+  n_visible: 7
+  n_hidden: 8
+  gamma: 0.5        # transverse-field strength
+  beta: 1.0         # inverse temperature
+  learning_rate: 0.01
+  cd_steps: 1
+  n_epochs: 50
+  batch_size: 32    # NOTE: default.yaml now says 64
+  seed: 42
+
+dataset:
+  n_per_class: 30   # NOTE: default.yaml now says 100; ablations used 20
+  trajectory_length: 100
+  agent_classes:
+    - SelfModelingAgent
+    - InstrumentalAgent
+    - RandomAgent
+
+detector:
+  # --- Primary gate thresholds (positive detection criteria) ---
+  tau_ent: 1.9657   # entanglement entropy threshold (nats)
+  tau_mi:  0.3      # mutual information threshold (nats)
+  tau_eps: 0.6507   # eigenmode persistence score
+  tau_pri: 0.9860   # perturbation resilience index
+  # NOTE: tau_cd and tau_ars are defined in the locked internal methodology
+  # but are not yet promoted to frozen calibrated thresholds in this release.
+  # CD and ARS are reported qualitatively in the current paper.
+  #
+  # --- Confound-rejection filters (upper-bound gates) ---
+  # These are NOT positive detection signals. They reject cyclic/periodic
+  # agents that could otherwise satisfy the primary criteria.
+  tau_spi: 0.28     # spectral periodicity index (SPI < threshold = pass)
+  tau_acm: 0.24     # autocorrelation metric (ACM < threshold = pass)
+
+temporal_persistence:
+  window_size: 20   # FROZEN
+  stride: 20        # non-overlapping
+  k: 3              # top eigenmodes
+  noise_std: 0.3    # for PRI computation

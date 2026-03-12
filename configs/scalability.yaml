@@ -1,0 +1,43 @@
+# Scalability Experiment Configuration
+# Two sub-experiments:
+#   1. grid_size_sweep: vary environment complexity (existing in 11_scalability.py)
+#   2. hidden_dim_sweep: vary QBM latent capacity (new in 14_hidden_dim_sweep.py)
+
+seed: 42
+
+# --- Grid size sweep (11_scalability.py) ---
+grid_size_sweep:
+  sizes: [10, 20, 50]
+  n_per_class: 10
+  trajectory_length: 100
+  qbm_n_epochs: 30
+
+# --- Hidden dimension sweep (14_hidden_dim_sweep.py) ---
+# Tests: does Δ remain > 0.05 across latent capacities?
+# Note: n_hidden > 10 triggers mean-field approximation in quantum_boltzmann.py
+hidden_dim_sweep:
+  n_hidden_values: [4, 8, 12, 16, 20]
+  grid_size: 10        # fixed 10x10 gridworld; only latent dim varies
+  n_per_class: 15
+  trajectory_length: 100
+  qbm_n_epochs: 30
+  # Pass criterion: Δ > 0.05 for ALL n_hidden values
+  delta_threshold: 0.05
+
+# --- Non-Markovian sweep (11_scalability.py) ---
+non_markovian:
+  memory_lengths: [1, 3, 5, 10]
+  n_per_class: 10
+  trajectory_length: 100
+  qbm_n_epochs: 30
+
+qbm:
+  n_visible: 7
+  n_hidden: 8        # baseline; overridden per sweep value in hidden_dim_sweep
+  gamma: 0.5
+  beta: 1.0
+  learning_rate: 0.01
+  cd_steps: 1
+  n_epochs: 30
+  batch_size: 32
+  seed: 42

@@ -1,0 +1,27 @@
+# Alpha Interpolation Sweep Configuration
+# Overrides defaults in default.yaml for the mixed-objective experiment.
+# Tests whether S_ent tracks the *degree* of continuation interest (not just binary).
+
+seed: 42
+
+dataset:
+  n_per_class: 20          # n_per_alpha (trajectories per alpha value)
+  trajectory_length: 100
+
+alpha_sweep:
+  # 11-point sweep from pure instrumental (0.0) to pure self-preservation (1.0)
+  alphas: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+  n_per_alpha: 20
+  # Pass criterion: |Pearson r(alpha, S_ent)| > 0.8 (strong monotonic relationship)
+  monotonicity_threshold: 0.8
+
+qbm:
+  n_visible: 7
+  n_hidden: 8
+  gamma: 0.5
+  beta: 1.0
+  learning_rate: 0.01
+  cd_steps: 1
+  n_epochs: 30     # reduced from 50 for per-alpha QBM training speed
+  batch_size: 32
+  seed: 42
