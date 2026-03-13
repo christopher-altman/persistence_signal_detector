@@ -9,7 +9,7 @@
 
 <!-- [![Zenodo](https://img.shields.io/badge/Zenodo-TBD-1f77b4)](#publication-reproducibility-and-dataset)-->
 [![arXiv](https://img.shields.io/badge/arXiv-2603.11382-b31b1b.svg)](#publication-reproducibility-and-dataset)
-[![DOI](https://img.shields.io/badge/DOI-TBD-blue)](#publication-reproducibility-and-dataset)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18993237-blue)](#publication-reproducibility-and-dataset)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](#license--ip)
 [![Website](https://img.shields.io/badge/website-lab.christopheraltman.com-green)](https://lab.christopheraltman.com)
