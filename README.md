@@ -335,8 +335,8 @@ All headline results in the manuscript are tied to the frozen Phase I configurat
 
 This repository accompanies the UCIP research program and its formal manuscript:
 
-- **arXiv:** `TBD`
-- **DOI:** `TBD`
+- **arXiv:** `https://arxiv.org/abs/2603.11382`
+- **DOI:** `10.5281/zenodo.18993237`
 - **Companion manuscript:** `paper/main.tex` or uploaded preprint PDF
 - **Companion manuscript bundle:** `paper/final/main.tex` and the retained assets it resolves
 
@@ -412,9 +412,10 @@ If you use this project in your research, please cite both the software reposito
   title = {Detecting Intrinsic and Instrumental Self-Preservation in Autonomous Agents: The Unified Continuation-Interest Protocol},
   year = {2026},
   journal = {arXiv},
-  eprint = {TBD},
+  eprint = {2603.11382},
   archivePrefix = {arXiv},
-  primaryClass = {cs.AI}
+  primaryClass = {cs.AI},
+  url = {https://arxiv.org/abs/2603.11382}
 }
 ```
 
