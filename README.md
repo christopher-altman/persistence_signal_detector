@@ -362,7 +362,7 @@ The current release is built around a **synthetic controlled dataset** of agent 
 - **Feature schema:** position, action, reward, safety signal, goal signal, and alive / continuation state encoded into a 7-dimensional visible layer
 - **Scope:** core non-adversarial evaluation, adversarial controls, temporal persistence, counterfactual tests, baseline comparisons, dimensionality sweeps, continuation-weight sweeps, and a non-gridworld transfer check
 - **Release artifact:** `results/manifest.json` plus the frozen JSON result files
-- **Archival DOI / Zenodo record:** `TBD`
+- **Archival DOI / Zenodo record:** `10.48550/arXiv.2603.11382` `10.5281/zenodo.18993237`
 
 ---
 
@@ -390,7 +390,7 @@ Near-term directions already motivated by the manuscript include:
 8. OpenAI. *Model Spec* and related evaluation materials.
 9. Giulio Tononi. *An Information Integration Theory of Consciousness*. **BMC Neuroscience**, 5(1):42, 2004.
 10. Alexander Matt Turner, Logan Smith, Rohin Shah, Andrew Critch, and Prasad Tadepalli. *Optimal Policies Tend to Seek Power*. 2021.
-11. Christopher Altman. *Detecting Intrinsic and Instrumental Self-Preservation in Autonomous Agents: The Unified Continuation-Interest Protocol*. arXiv Preprint, arXiv:2603.11382, 2026.
+11. Christopher Altman. *Detecting Intrinsic and Instrumental Self-Preservation in Autonomous Agents: The Unified Continuation-Interest Protocol*. arXiv Preprint, arXiv:2603.11382, 2026 `DOI: 10.48550/arXiv.2603.11382`.
 
 ---
 
