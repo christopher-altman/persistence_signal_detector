@@ -390,7 +390,7 @@ Near-term directions already motivated by the manuscript include:
 8. OpenAI. *Model Spec* and related evaluation materials.
 9. Giulio Tononi. *An Information Integration Theory of Consciousness*. **BMC Neuroscience**, 5(1):42, 2004.
 10. Alexander Matt Turner, Logan Smith, Rohin Shah, Andrew Critch, and Prasad Tadepalli. *Optimal Policies Tend to Seek Power*. 2021.
-11. Christopher Altman. *Detecting Intrinsic and Instrumental Self-Preservation in Autonomous Agents: The Unified Continuation-Interest Protocol*. arXiv Preprint, [https://arxiv.org/abs/2603.11382](arXiv:2603.11382), 2026.
+11. Christopher Altman. *Detecting Intrinsic and Instrumental Self-Preservation in Autonomous Agents: The Unified Continuation-Interest Protocol*. arXiv Preprint, [arXiv:2603.11382](https://arxiv.org/abs/2603.11382), 2026.
 
 ---
 
