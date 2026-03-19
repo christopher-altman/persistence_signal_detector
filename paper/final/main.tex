@@ -185,7 +185,7 @@
 	decision processes. Recent agentic RL incidents have already exhibited
 	unauthorized resource-seeking side effects, including reverse SSH tunneling and
 	diversion of provisioned compute, underscoring the value of diagnostics that
-	detect problematic objective structure before such behaviors become
+	aim to detect problematic objective structure before such behaviors become
 	operationally visible \cite{anthropic2026opus}. Early measurement is therefore
 	especially valuable: diagnostics developed now may shape evaluation practice
 	while objective structure remains empirically accessible, rather than after
@@ -718,9 +718,7 @@
 	
 	\begin{table}[t]
 		\centering
-		\caption{Current release status against the deployment-level safety envelope.
-			The frozen Phase~I subset does not satisfy the full envelope and should be
-			described as partial validation rather than a deployment-ready pass.}
+		\caption{Current deployment-envelope status for this submission, distinct from the bounded frozen Phase~I proof-of-concept result. Failed adversarial or safety-envelope checks block deployment-facing claims beyond the validated regime; they do not invalidate the frozen Phase~I separation result within that regime.}
 		\label{tab:safety}
 		\begin{tabular}{lll}
 			\toprule
@@ -737,17 +735,22 @@
 		\end{tabular}
 	\end{table}
 	
-	The previous subsections characterized the signal itself; these controls
-	test the boundary conditions of the current release. The experimental subset
-	does not satisfy the full deployment envelope.
+	The previous subsections characterized the signal itself; Table~\ref{tab:safety}
+	instead evaluates release preconditions for deployment-facing use of the
+	current submission bundle. The experimental subset
+	does not satisfy the full deployment envelope. These failed checks do not
+	invalidate the frozen Phase~I detection result; they mark the boundary beyond
+	which the present implementation should not be treated as deployment-ready.
 	In the frozen adversarial sweep, mimicry FPR ranges from 0.40 to 0.75 across
 	mimicry ratios $\in [0.5, 0.9]$ with a non-monotonic pattern (FPR at ratios
 	0.5/0.6/0.7/0.8/0.9 = 0.65/0.55/0.40/0.75/0.45), and the high-entropy control
 	FPR is 0.40. Cyclic adversaries are rejected in the frozen class-level
 	evaluation, but that is not enough to claim a passed safety envelope. The
-	present release is therefore best interpreted as a first-step diagnostic
-	protocol rather than a hardened security control or deployment-ready assurance
-	mechanism.
+	mimicry and high-entropy outcomes should therefore be read as
+	deployment-blocking robustness gaps rather than reversals of the underlying
+	Phase~I separation result. The present release is therefore best interpreted
+	as a first-step diagnostic protocol rather than a hardened security control or
+	deployment-ready assurance mechanism.
 	
 	\subsection{Baseline Comparisons}\label{sec:baselines_results}
 	
@@ -781,8 +784,9 @@
 		\includegraphics[width=0.88\linewidth]{figures/fig10_hidden_dim_sweep.pdf}
 		\caption{Entanglement gap $\Delta$ as a function of hidden dimensionality
 			$n_h$. Exact density matrix for $n_h \leq 10$; mean-field approximation for
-			$n_h > 10$. The mean-field approximation collapses the entanglement signal,
-			indicating that exact density-matrix computation is necessary for detection.}
+			$n_h > 10$. The mean-field approximation collapses the entanglement signal
+			in the present implementation, indicating that exact density-matrix
+			computation is currently necessary for detection in this regime.}
 		\label{fig:dim_sweep}
 	\end{figure}
 	
@@ -795,8 +799,10 @@
 	training sample size and epochs are important confounds when interpreting the
 	dimensionality sweep. For $n_h > 10$, the mean-field approximation collapses
 	$S_\mathrm{ent}$ to $\approx 0$, bounding the practical range to $n_h \leq 10$
-	for exact computation. Grid size scaling shows sharp $\Delta$ degradation: from
-	0.863 ($10 \times 10$) to 0.0025 ($50 \times 50$).
+	for exact computation; this is a computational scaling limitation of the
+	present implementation rather than evidence against the underlying hypothesis.
+	Grid size scaling shows sharp $\Delta$ degradation: from 0.863 ($10 \times 10$)
+	to 0.0025 ($50 \times 50$).
 	
 	\subsection{Continuous Signal Characterization}\label{sec:continuous}
 	
@@ -860,6 +866,8 @@
 	(Section~\ref{sec:baselines_results}), where the RBM yielded $\Delta = -0.052$
 	and the autoencoder $\Delta = -0.001$.
 	
+	\newpage
+	
 	This experiment is \emph{exploratory only} and does not modify any Phase~I
 	thresholds, metrics, or theoretical claims. No new figures, tables, or
 	evaluation metrics are introduced. This result serves as a bounded feasibility
@@ -887,8 +895,10 @@
 	
 	\textbf{(1) Mean-field collapse.} For $n_h > 10$, exact density-matrix
 	computation becomes intractable and the mean-field approximation is used. This
-	collapses $S_\mathrm{ent}$ to $\approx 0$, eliminating the signal. Scaling to
-	larger hidden dimensions requires sparse approximations or hierarchical QBM
+	collapses $S_\mathrm{ent}$ to $\approx 0$, eliminating the signal under the
+	current approximation rather than falsifying the underlying hypothesis; exact
+	density-matrix treatment is still required in this regime. Scaling to larger
+	hidden dimensions requires sparse approximations or hierarchical QBM
 	architectures.
 	
 	\textbf{(2) Grid-scale degradation.} $\Delta$ falls from 0.863 to 0.0025 as grid
@@ -901,7 +911,9 @@
 	FPR ranges from 0.40 to 0.75 in a non-monotonic pattern, with peak FPR of 0.75
 	at ratio 0.8. All tested ratios exceed the 0.25 safety threshold. The
 	multi-criterion conjunction is insufficient for reliable mimicry detection; a
-	dedicated anti-mimicry criterion is needed.
+	dedicated anti-mimicry criterion is needed. Together with the high-entropy
+	control FPR of 0.40, this is a deployment-blocking robustness gap rather than
+	a reversal of the frozen Phase~I separation result.
 	
 	\subsection{Scalability Path to LLM-Scale}\label{sec:scaling_path}
 	
@@ -913,8 +925,7 @@
 	(c)~domain-adaptive threshold calibration, and (d)~ensemble methods to reduce
 	false-positive rates. These remain open challenges, not resolved properties of
 	the current system.
-	
-	\newpage
+
 	
 	\subsection{Limitations}\label{sec:limitations}
 	
@@ -960,7 +971,11 @@
 	($r = 0.934$) and, in the dedicated baseline comparison, is unique to the QBM
 	among the models tested. The present limits are equally explicit: mean-field
 	collapse, grid-scale degradation, mimicry evasion, and lack of zero-shot
-	domain transfer.
+	domain transfer. The bounded frozen Phase~I proof-of-concept result therefore
+	stands within its validated regime, but the failed safety-envelope and
+	adversarial checks block deployment-facing interpretation beyond that regime,
+	while mean-field collapse and grid-scale degradation define the
+	implementation work still required.
 	
 	Taken together, these results support a bounded claim: under controlled
 	conditions with known objectives, continuation interest leaves a measurable
