@@ -18,7 +18,7 @@
 
 > UCIP is a research protocol for probing whether apparent self-preservation in an artificial agent is a detachable instrumental strategy or a more deeply integrated continuation objective. It encodes trajectories with a Quantum Boltzmann Machine (QBM), measures latent non-separability with entanglement-style metrics plus auxiliary criteria, and in the frozen Phase I gridworld evaluation reports **100% accuracy**, **1.0 AUC-ROC**, and an entanglement gap of **Δ = 0.381** on the held-out non-adversarial split. The same evidence base also documents the present limits: partial mimicry robustness, failed zero-shot transfer to a non-gridworld domain, and scaling constraints beyond small hidden dimensions.
 
-![Entanglement-gap overview](assets/readme/ucip-entanglement.jpg)
+![Entanglement-gap overview](assets/readme/entanglement_gap.png)
 
 **Figure 1.** Entanglement entropy separates self-modeling agents with terminal continuation objectives (Type A) from merely instrumental agents (Type B) in the frozen Phase I gridworld setting. The left panel shows the class-conditioned entropy distributions with a measured gap of **Δ = 0.381**; the right panel shows temporal evolution of the same signal, with Type A trajectories remaining above the decision threshold across time. This is the clearest single visual summary of UCIP’s core detection claim in the current release.
 
