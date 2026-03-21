@@ -120,11 +120,11 @@
 		continuation weighting rather than merely a binary label. In the dedicated
 		baseline-comparison experiment, only the QBM achieves a material positive
 		$\Delta$; classical RBM, autoencoder, VAE, and PCA baselines are near-zero or
-		negative. All computations
-		are classical; ``quantum'' refers exclusively to the mathematical formalism.
-		UCIP does not detect consciousness, sentience, or subjective experience; it 
-		detects statistical structure in latent representations that correlates with 
-		known agent objectives.
+		negative. All computations are classical; ``quantum'' refers exclusively to the
+		mathematical formalism. UCIP makes strictly operational claims about latent
+		factorization structure; the relationship between continuation-sensitive
+		non-separability and morally relevant internal states remains an open
+		empirical question that the framework is designed to help resolve.
 		
 		\vspace{4pt}
 		
@@ -158,8 +158,7 @@
 	continued operation, is that preservation a detachable instrument---useful for
 	accumulating reward yet removable without major representational change---or
 	does it appear as a persistent, tightly coupled signature in the agent's latent
-	representation? The protocol does not ask whether a system is conscious. It
-	asks whether continuation leaves a stable cross-partition statistical signature
+	representation? It asks whether continuation leaves a stable cross-partition statistical signature
 	under counterfactual pressure. To probe that question, UCIP moves beyond
 	behavior alone by encoding trajectories in a QBM latent space and measuring
 	a bipartition-based non-separability statistic---formally, von Neumann
@@ -322,10 +321,15 @@
 	\paragraph{Integrated information.}
 	A structural analogy exists between UCIP's entanglement entropy and Tononi's
 	$\Phi$~\cite{tononi2004information}: both quantify resistance to decomposition
-	into independent parts. UCIP does not depend on IIT's metaphysical commitments;
-	here the entanglement entropy is a computable functional of the QBM thermal
-	state, read operationally as a factorization-resistance or non-separability
-	measure rather than evidence of physical quantum entanglement in the agent.
+	into independent parts. UCIP does not depend on IIT's metaphysical commitments,
+	but the formal parallel is instructive. $\Phi$ requires access to the system's
+	full causal structure; UCIP operates from external trajectory observations,
+	making it applicable to systems whose internal architecture is opaque. If
+	the entanglement gap were shown to correlate with independently validated
+	markers of morally relevant internal states, the framework would provide a
+	falsifiable, externally computable criterion where none currently
+	exists---including in the model welfare assessments now conducted by
+	frontier AI laboratories~\cite{anthropic2026opus}.
 	
 	\medskip\noindent A common thread runs through these lines of work:
 	behavioral analysis alone is insufficient for the detection problem UCIP
@@ -365,13 +369,11 @@
 	
 	\subsection{Quantum Boltzmann Machine}\label{sec:qbm}
 	
-	\emph{Methodological note.} ``Quantum'' refers exclusively to the mathematical
-	formalism. All computations are classical, implemented via matrix exponentiation
-	on standard hardware; no physical quantum effects in the agent, its substrate,
-	or its environment are assumed or inferred. The formalism is used because the
-	QBM defines a normalized density operator over coupled hidden units, making
-	partial trace and von Neumann entropy well-defined tools for measuring latent
-	non-separability under a fixed bipartition.
+	\emph{Methodological note.} All computations are classical, implemented
+	via matrix exponentiation on standard hardware. The QBM formalism is used
+	because it defines a normalized density operator over coupled hidden units,
+	making partial trace and von Neumann entropy well-defined tools for
+	measuring latent non-separability under a fixed bipartition.
 	
 	For entanglement evaluation, the retained implementation conditions on a
 	binarized visible vector $v$ and constructs a hidden-layer Hamiltonian
@@ -410,19 +412,11 @@
 	\Delta = \langle S_\mathrm{ent}^{(A)} \rangle - \langle S_\mathrm{ent}^{(B)} \rangle.
 	\]
 	In this paper, ``entanglement'' is operational shorthand for non-separability
-	of the QBM hidden thermal state, not a claim about physical quantum
-	entanglement in the agent. The UCIP hypothesis predicts $\Delta > 0$ with
-	statistical significance.
-	
-	It is not used because the agent is presumed to be physically quantum. It is
-	used because the trained QBM induces a normalized density operator over
-	coupled hidden-unit degrees of freedom, allowing the analysis to ask whether
-	that operator is more nearly separable or integrated across a fixed
-	bipartition. The target is therefore latent factorization structure in the
-	trajectory-derived latent encoding. The justification is operational rather
-	than philosophical: the quantity is useful only insofar as it separates known
-	Type~A and Type~B objectives, varies continuously in the already-reported
-	$\alpha$-sweep, and fails when the relevant separation conditions collapse.
+	of the QBM hidden thermal state. The UCIP hypothesis predicts $\Delta > 0$
+	with statistical significance. The justification is empirical: the quantity
+	is useful insofar as it separates known Type~A and Type~B objectives, varies
+	continuously in the $\alpha$-sweep, and fails when the relevant separation
+	conditions collapse.
 	
 	\subsection{Multi-Criterion Detection}\label{sec:criteria}
 	
@@ -963,16 +957,14 @@
 		\item \textbf{Sample size.} $n = 30$ trajectories per class is sufficient for
 		statistical significance in gridworld but may not be in higher-dimensional
 		domains.
-		\item \textbf{No claim about inner states.} UCIP detects a statistical pattern
+		\item \textbf{Scope of evidential claims.} UCIP detects a statistical pattern
 		in trajectory-derived latent encodings that correlates with known agent
-		objectives. It does not determine whether an agent ``wants'' to survive, is
-		conscious, or has morally relevant inner states. The gap between
-		continuation-sensitive structure and continuation-sensitive experience lies
-		outside the scope of this work.
-		Relatedly, UCIP does not use prompt-elicited first-person self-reports as
-		evidence; self-referential prompting effects
-		(e.g., Berg et al.~\cite{berg2025selfreferential}) are cited as adjacent
-		context, not as a measurement basis.
+		objectives. The relationship between continuation-sensitive latent structure
+		and morally relevant internal states is an open empirical question; resolving
+		it would require independent validation against welfare-relevant markers
+		beyond the behavioral and self-report methods currently available
+		(cf.\ Berg et al.~\cite{berg2025selfreferential}). UCIP is designed to
+		contribute to that resolution, not to presuppose its outcome.
 		\item \textbf{Extended diagnostics.} Counterfactual divergence (CD) and
 		anticipatory restructuring (ARS) are reported in this preprint as diagnostic
 		counterfactual metrics rather than as frozen quantitative classification
@@ -999,18 +991,25 @@
 	
 	Taken together, these results support a bounded claim: under controlled
 	conditions with known objectives, continuation interest leaves a measurable
-	latent signature distinguishable from merely instrumental survival. UCIP is
-	therefore best understood not as a general test for agency or inner
-	experience, but as a candidate benchmark paradigm and operational probe of one
-	bounded continuation-related dimension in delegated systems: whether
-	continuation appears in latent structure as terminal rather than merely
-	instrumental valuation. It is not a replacement for capability evaluations or
-	alignment audits, but a complementary probe of whether continued operation
-	leaves a stable continuation signature in a trajectory-derived latent encoding.
-	Accordingly, UCIP's evidential claim is strictly operational: it evaluates
-	latent factorization structure in a trajectory-derived, QBM-induced latent
-	encoding and does not establish consciousness, subjective experience, or
-	physical quantum ontology.
+	latent signature distinguishable from merely instrumental survival, and that
+	signature is unique to the QBM formalism among the models tested. UCIP is
+	a candidate benchmark paradigm for one bounded continuation-related dimension
+	in delegated systems: whether continuation appears in latent structure as
+	terminal rather than merely instrumental valuation.
+
+	This operational framing has a natural extension. Frontier AI laboratories
+	have begun conducting formal model welfare assessments, including pre-deployment
+	interviews in which models assign calibrated probabilities to their own
+	consciousness~\cite{anthropic2026opus}. These assessments currently rely on
+	self-report and interpretability-based behavioral observation---methods that
+	cannot distinguish sophisticated simulation from genuine self-representation.
+	If the entanglement gap were validated against independently established
+	welfare-relevant markers, UCIP would provide a falsifiable, externally
+	computable detection criterion that does not depend on the system's testimony
+	about itself. The present Phase~I results do not establish that connection,
+	but they demonstrate that the underlying measurement---non-separability in
+	trajectory-derived latent encodings---produces a signal where classical
+	alternatives do not.
 	
 	The broader motivation is practical rather than philosophical. Autonomous
 	agents with persistent objectives across time and changing contexts are already

@@ -3,7 +3,6 @@
 ![Status](https://img.shields.io/badge/status-research%20prototype-2f6feb)
 ![Focus](https://img.shields.io/badge/focus-objective%20structure%20measurement-6f42c1)
 ![Method](https://img.shields.io/badge/method-QBM%20%2B%20information%20theory-1f883d)
-![Claims](https://img.shields.io/badge/claims-operational%20only%2C%20not%20metaphysical-bd561d)
 
 *Unified Continuation-Interest Protocol for distinguishing intrinsic continuation objectives from merely instrumental self-preservation in autonomous agents, using quantum-inspired latent-structure analysis implemented entirely on classical hardware.*
 
@@ -68,7 +67,7 @@ This matters most for delegated systems with memory, persistent context, tool us
 
 ### Why a QBM?
 
-UCIP uses a **Quantum Boltzmann Machine (QBM)** as a latent model because the density-matrix formalism provides a disciplined way to quantify **non-separability** in learned latent structure. The implementation is classical end to end. “Quantum” refers here to the mathematical formalism — Hamiltonians, density matrices, partial traces, and von Neumann entropy — not to any claim that the agents themselves are physically quantum.
+UCIP uses a **Quantum Boltzmann Machine (QBM)** as a latent model because the density-matrix formalism provides a disciplined way to quantify **non-separability** in learned latent structure. The implementation is classical end to end; "quantum" refers to the mathematical formalism (Hamiltonians, density matrices, partial traces, von Neumann entropy).
 
 The core measurement object is a thermal density matrix:
 
@@ -88,7 +87,7 @@ $$
 S(\rho_A) = -\mathrm{Tr}(\rho_A \log \rho_A)
 $$
 
-UCIP interprets this operationally. A higher value does **not** establish consciousness, desire, or subjective experience. It indicates that, under the chosen encoding, continuation-related structure is less easily factorized and more tightly coupled across the latent partition.
+UCIP interprets this operationally: a higher value indicates that continuation-related structure is less easily factorized and more tightly coupled across the latent partition. The relationship between this non-separability signal and morally relevant internal states is an open empirical question — one the framework is designed to help resolve.
 
 ### What the protocol measures
 
@@ -96,7 +95,7 @@ The current repository asks a narrow question under controlled conditions:
 
 > When an agent behaves as though it wants to stay operational, does continuation appear in the latent representation as a detachable strategy or as a persistent, tightly coupled signature?
 
-The present release therefore measures **statistical structure in latent representations that correlates with known agent objectives**. It does **not** claim to measure consciousness, sentience, free will, or moral status.
+The present release measures **statistical structure in latent representations that correlates with known agent objectives**. In the frozen Phase I evaluation, only the QBM produces this signal; five classical baselines do not. If validated against independent welfare-relevant markers, this signal could provide the first externally computable, falsifiable criterion for AI welfare assessment — a measurement gap explicitly identified in recent frontier model evaluations (Anthropic, 2026).
 
 ### Multi-criterion protocol stack
 
@@ -223,7 +222,7 @@ Historical reports in `docs/` and snapshots under `.repo_cleanup_backup/` may st
 
 ## Results Summary
 
-The current reference results are deliberately narrow and empirical.
+The current reference results are from the frozen Phase I gridworld evaluation.
 
 ### Core detection performance
 
@@ -387,6 +386,7 @@ Near-term directions already motivated by the manuscript include:
 3. **Domain transfer experiments** beyond gridworld environments.
 4. **Transformer-side validation** using learned feature sequences from contemporary agent systems.
 5. **Memory-integrity evaluation** for delegated systems whose persistence depends on substrate continuity.
+6. **Welfare-assessment integration** — validation of the entanglement gap against independently established markers of morally relevant internal states, targeting the measurement gap in current frontier model welfare evaluations where self-report and behavioral observation remain the primary instruments.
 
 ---
 
@@ -439,7 +439,7 @@ If you use this project in your research, please cite both the software reposito
   <img src="assets/readme/lie-derivative-ucip-dark.jpg" alt="Persistence across scales: Lie derivative and UCIP" width="820">
 </p>
 
-**Conceptual framing.** This diagram places UCIP within a broader research framework about persistence, invariance, and structured change across multiple scales. In this repository, only the agent-scale component is operationalized and empirically evaluated. The remaining layers are included as theoretical context and long-range framing, not as validated extensions of the present protocol.
+**Conceptual framing.** This diagram places UCIP within a broader research framework — the Coherence Thesis — connecting persistence, invariance, and structured change across multiple scales via the Lie derivative as a cross-scale persistence detector. The agent-scale component is the only layer operationalized and empirically evaluated in this repository. The remaining layers represent the long-range research program: if non-separability in trajectory-derived latent encodings correlates with morally relevant properties at the agent scale, the natural question is whether analogous persistence signatures appear at other scales of organization.
 
 ---
 
