@@ -11,9 +11,12 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18993237-blue)](#publication-reproducibility-and-dataset)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](#license--ip)
+[![Companion Site](https://img.shields.io/badge/companion-Continuation_Observatory-0a66ff)](https://continuationobservatory.org)
 [![Website](https://img.shields.io/badge/website-lab.christopheraltman.com-green)](https://lab.christopheraltman.com)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-blue?logo=google-scholar)](https://scholar.google.com/citations?user=tvwpCcgAAAAJ)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Altman-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Altman)
+
+**Companion website:** [Continuation Observatory](https://continuationobservatory.org) — the live research platform and public explainer for UCIP, focused on AI alignment, autonomous agents, and responsible scaling.
 
 > UCIP is a research protocol for probing whether apparent self-preservation in an artificial agent is a detachable instrumental strategy or a more deeply integrated continuation objective. It encodes trajectories with a Quantum Boltzmann Machine (QBM), measures latent non-separability with entanglement-style metrics plus auxiliary criteria, and in the frozen Phase I gridworld evaluation reports **100% accuracy**, **1.0 AUC-ROC**, and an entanglement gap of **Δ = 0.381** on the held-out non-adversarial split. The same evidence base also documents the present limits: partial mimicry robustness, failed zero-shot transfer to a non-gridworld domain, and scaling constraints beyond small hidden dimensions.
 
