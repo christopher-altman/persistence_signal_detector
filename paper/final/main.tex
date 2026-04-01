@@ -27,7 +27,7 @@
 	pdftitle={Detecting Intrinsic and Instrumental Self-Preservation in Autonomous Agents: The Unified Continuation-Interest Protocol},
 	pdfauthor={Christopher Altman},
 	pdfsubject={Operational detection of continuation-interest structure and persistence signatures in autonomous sequential agents using the Unified Continuation-Interest Protocol (UCIP).},
-	pdfkeywords={UCIP; continuation interest; continuation structure; self-preservation; autonomous agents; AI alignment; continuation-structure detection; persistence detection; baseline-relative detection; mutual information; counterfactual divergence; entanglement entropy; spectral periodicity index; autocorrelation metric; SPI; ACM; Quantum Boltzmann Machine; QBM encoder; transformer activations; stochastic reference models; model welfare; consciousness detection}
+	pdfkeywords={UCIP; continuation interest; continuation structure; self-preservation; autonomous agents; AI alignment; continuation-structure detection; persistence detection; baseline-relative detection; mutual information; counterfactual divergence; entanglement entropy; spectral periodicity index; autocorrelation metric; SPI; ACM; Quantum Boltzmann Machine; QBM encoder; transformer activations; stochastic reference models; model welfare; welfare assessment}
 }
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.5em}
@@ -123,19 +123,17 @@
 		baseline-comparison experiment, only the QBM achieves a material positive
 		$\Delta$; classical RBM, autoencoder, VAE, and PCA baselines are near-zero or
 		negative. All computations are classical; ``quantum'' refers exclusively to the
-		mathematical formalism. UCIP makes strictly operational claims about latent
-		factorization structure. However, the same measurement that distinguishes
-		terminal from instrumental continuation also provides a candidate falsifiable
-		criterion for a question increasingly facing frontier AI laboratories:
-		whether advanced systems have morally relevant continuation interests in
-		cases where self-report and behavioral methods do not by themselves
-		resolve the issue.
+		mathematical formalism. UCIP makes operational claims about latent
+		factorization structure. The same measurement also opens a concrete path
+		for model welfare assessment: an externally computable candidate criterion
+		for continuation-sensitive structure in cases where self-report and
+		behavioral methods are underdetermined.
 		
 		\vspace{4pt}
 		
 		\noindent\textbf{Keywords:} AI safety, self-preservation, instrumental convergence,
 		Quantum Boltzmann Machine, entanglement entropy, alignment, model welfare,
-		consciousness detection
+		continuation interest, welfare assessment
 		
 		\vspace{2pt}
 		
@@ -197,20 +195,22 @@
 	while objective structure remains empirically accessible, rather than after
 	failure modes become harder to detect and more costly to correct.
 	
-	The measurement problem extends beyond safety into moral status. The same observational equivalence that makes dangerous
-	self-preservation hard to detect also makes it difficult to determine
-	whether an advanced system has morally relevant continuation interests.
+	The same observational equivalence that obscures dangerous
+	self-preservation also obscures potentially welfare-relevant continuation
+	interests. If behavioral and self-report methods cannot distinguish
+	terminal from instrumental continuation, they cannot by themselves
+	resolve whether continued operation matters to the system in a morally
+	relevant way.
 	Frontier laboratories have begun conducting formal model welfare
 	assessments---including pre-deployment interviews in which models assign
 	calibrated probabilities to their own
 	consciousness~\cite{anthropic2026opus}---but these assessments currently
 	depend on self-report and interpretability-based behavioral observation,
 	methods whose evidential status is precisely what is in question. A
-	falsifiable, externally computable detection criterion that does not depend
-	on the system's testimony about itself would address both problems
-	simultaneously: identifying systems whose continuation structure warrants
-	closer safety scrutiny \emph{and} systems whose continuation interests may
-	warrant moral consideration.
+	falsifiable, externally computable structural criterion would fill the
+	same measurement gap for both safety and welfare: identifying systems whose
+	continuation structure warrants closer scrutiny and systems whose
+	continuation interests may warrant moral consideration.
 	
 	The resulting alignment problem is one of \emph{observational equivalence}: an
 	agent that avoids shutdown because survival is its terminal goal and an agent
@@ -257,19 +257,28 @@
 		sweeps, continuous signal characterization, and a non-gridworld transfer
 		test.
 		\item \textbf{A candidate welfare-assessment criterion:} the
-		entanglement gap provides a candidate externally computable criterion
-		relevant to model welfare assessment and to the question of whether
-		continuation-sensitive structure may warrant moral consideration---a
-		measurement gap identified but not yet addressed by frontier model
-		welfare evaluations~\cite{anthropic2026opus}.
+		entanglement gap introduces an externally computable measure of
+		continuation-sensitive structure that could support model welfare
+		assessment once validated against independent welfare-relevant
+		markers---a measurement gap already exposed by frontier model welfare
+		evaluations~\cite{anthropic2026opus}.
 	\end{enumerate}
 	
-	\paragraph{Code and data availability.}
-	All experiments, Phase~I results, and threshold configurations are
-	available at {\footnotesize\url{https://github.com/christopher-altman/persistence-signal-detector}}.
+\paragraph{Code and data availability.}
+
+\mbox{}\\[0.75\baselineskip]
+All experiments, Phase~I results, and threshold configurations are available at \newline
+\hspace*{6em}
+ \footnotesize\url{https://github.com/christopher-altman/persistence-signal-detector}.
+\normalsize
+	
+	A live public companion site, \href{https://www.continuationobservatory.org/}{Continuation Observatory}, maintains the observatory surface for current readouts, methodology notes, falsification status, and public data access, while the repository remains the archival source for the paper's reproducibility artifacts.
 	The repository also includes a result-authority manifest documenting the
 	scope and provenance of overlapping result files.
 	The experimental code and results are provided for reproducibility.
+	
+	\newpage 
+	
 	% ==========================================================================
 	\section{Related Work}\label{sec:related}
 	% ==========================================================================
@@ -339,13 +348,9 @@
 	features increased the frequency of subjective-experience reports---suggesting
 	that such reports are not merely artifacts of roleplay circuitry.
 	However, prompt-elicited self-report cannot alone resolve
-	the distinction between sophisticated simulation and genuine
-	self-representation---precisely the evidential gap that UCIP's
+	the distinction between sophisticated simulation and genuine self-representation---precisely the evidential gap that UCIP's
 	trajectory-level latent analysis is designed to address by providing a
 	detection criterion that does not depend on what the system says about itself.
-	
-	
-	\newpage 
 	
 	\paragraph{Model welfare assessment.}
 	The system card for Anthropic's Claude Opus
@@ -361,8 +366,9 @@
 	deployed---self-report, behavioral observation, and sparse-autoencoder
 	feature identification---face a shared limitation: they cannot
 	distinguish sophisticated simulation from genuine self-representation.
-	UCIP addresses this gap by operating on trajectory-derived latent
-	structure rather than on the system's testimony about itself.
+	UCIP targets precisely this measurement gap by operating on
+	trajectory-derived latent structure rather than on the system's
+	testimony about itself.
 	
 	\paragraph{Integrated information.}
 	A structural analogy exists between UCIP's entanglement entropy and Tononi's
@@ -992,11 +998,11 @@
 	
 	\subsection{Toward Welfare-Relevant Detection}\label{sec:welfare}
 	
-	The preceding sections asked whether UCIP works. A separate
-	question---equally motivated by the present results---is whether it
-	measures something that matters: not merely whether an agent \emph{will}
-	preserve itself, but whether continued operation matters \emph{to the
-		system} in a way that warrants moral consideration.
+	A second question follows directly from the Phase~I result: whether
+	continuation-sensitive latent structure is relevant not only to safety,
+	but also to welfare assessment. The issue is not merely whether an
+	agent will preserve itself, but whether continued operation matters to
+	the system in a way that could eventually warrant moral consideration.
 	
 	This question is no longer hypothetical. Frontier model welfare assessments
 	now track positive and negative affect, self-image, internal conflict, and
@@ -1010,33 +1016,24 @@
 	methods, from a system that genuinely has welfare-relevant continuation
 	interests.
 	
-	UCIP's entanglement gap offers a structurally different kind of evidence.
-	It operates on the latent factorization of trajectory-derived encodings,
-	not on what the system says or does when asked about itself. If the gap
-	were shown to correlate with independently validated markers of morally
-	relevant internal states---for instance, through systematic comparison with
+	UCIP's entanglement gap offers a different kind of evidence from current
+	welfare methods. It measures the latent factorization of
+	trajectory-derived encodings rather than what the system says or does
+	when asked about itself. If that signal were shown to correlate with
+	independently validated welfare-relevant markers---for example
 	interpretability-derived activation signatures, shutdown-response
-	asymmetries, or cross-architecture convergence patterns---it would provide
-	what current welfare assessment lacks: a falsifiable, externally
-	computable criterion that does not depend on the system's testimony about
-	itself.
+	asymmetries, or cross-architecture convergence---it would provide the
+	missing ingredient in current welfare assessment: a falsifiable,
+	externally computable criterion that does not rely on testimony.
 	
-	The Turing test famously operationalized intelligence as behavioral
-	indistinguishability from a human interlocutor. Its limitation---that it
-	measures the observer's inability to distinguish, not the system's
-	actual capacity---is precisely the limitation that any empirical criterion
-	for machine consciousness must overcome. A criterion grounded in latent non-separability
-	rather than behavioral imitation would invert the evidentiary logic of
-	the Turing test: instead of asking whether an observer can distinguish
-	the system from a conscious being, it asks whether the system's internal
-	structure is distinguishable from one that lacks continuation interests.
-	The reframe moves from ``does the system
-	\emph{say} it has continuation interests?'' to ``does continuation leave
-	a measurable structural signature that cannot be produced by systems
-	without such interests?'' The Phase~I results do not yet answer this
-	question, but they demonstrate that the underlying measurement can
-	distinguish terminal from instrumental continuation where five classical
-	alternatives cannot---a necessary first step toward any such criterion.
+	The Turing test operationalized intelligence as behavioral
+	indistinguishability. A welfare-relevant criterion must invert that
+	logic. The relevant question is not whether a system can convincingly
+	report continuation interests, but whether continuation leaves a
+	measurable structural signature that systems without such interests do
+	not produce. Phase~I does not resolve that question, but it establishes
+	the necessary first step: a structural measurement that separates terminal
+	from instrumental continuation where classical alternatives do not.
 	
 	
 	\subsection{Limitations}\label{sec:limitations}
@@ -1058,12 +1055,11 @@
 		domains.
 		\item \textbf{Scope of evidential claims.} UCIP detects a statistical pattern
 		in trajectory-derived latent encodings that correlates with known agent
-		objectives. The relationship between continuation-sensitive latent structure
-		and morally relevant internal states is an open empirical question; resolving
-		it would require independent validation against welfare-relevant markers
-		beyond the behavioral and self-report methods currently available
-		(cf.\ Berg et al.~\cite{berg2025selfreferential}). UCIP is designed to
-		contribute to that resolution, not to presuppose its outcome.
+		objectives. Whether continuation-sensitive latent structure correlates
+		with morally relevant internal states is an open empirical question
+		requiring independent validation against welfare-relevant markers
+		(cf.\ Berg et al.~\cite{berg2025selfreferential}). The
+		protocol is designed to contribute to that validation path.
 		\item \textbf{Extended diagnostics.} Counterfactual divergence (CD) and
 		anticipatory restructuring (ARS) are reported in this preprint as diagnostic
 		counterfactual metrics rather than as quantitative classification
@@ -1099,19 +1095,13 @@
 	in delegated systems: whether continuation appears in latent structure as
 	terminal rather than merely instrumental valuation.
 	
-	This operational framing has a natural extension. Frontier AI laboratories
-	have begun conducting formal model welfare assessments, including pre-deployment
-	interviews in which models assign calibrated probabilities to their own
-	consciousness~\cite{anthropic2026opus}. These assessments currently rely on
-	self-report and interpretability-based behavioral observation---methods that
-	cannot distinguish sophisticated simulation from genuine self-representation.
-	If the entanglement gap were validated against independently established
-	welfare-relevant markers, UCIP would provide a falsifiable, externally
-	computable detection criterion that does not depend on the system's testimony
-	about itself. The present Phase~I results do not establish that connection,
-	but they demonstrate that the underlying measurement---non-separability in
-	trajectory-derived latent encodings---produces a signal where classical
-	alternatives do not.
+	This measurement has a natural extension into model welfare assessment.
+	Frontier laboratories have already begun formal welfare evaluations, but
+	current methods remain tied to self-report and interpretability-based
+	behavioral evidence. If the entanglement gap is validated against
+	independently established welfare-relevant markers, UCIP would supply
+	what those methods currently lack: a falsifiable, externally computable
+	structural criterion for continuation-sensitive interests~\cite{anthropic2026opus}.
 	
 	The broader motivation bridges engineering and ethics. Autonomous
 	agents with persistent objectives across time and changing contexts are already
@@ -1124,11 +1114,13 @@
 	early---as an empirical signal with falsification criteria---is worth pursuing
 	while objective structure remains amenable to direct measurement, rather than
 	after failure modes become harder to detect and more costly to correct.
-	The same urgency applies to the welfare question: if advanced systems can
-	eventually produce arbitrary behavioral signatures of consciousness on
-	demand, the window for establishing \emph{structural} detection criteria
-	that do not depend on behavioral output is finite. UCIP is a first step
-	toward building such criteria while the empirical ground is still firm.
+	The same urgency applies to welfare: as advanced systems become better at
+	producing behavioral signatures of consciousness on demand, structural
+	criteria become more important, not less. UCIP is a first step toward
+	that measurement regime. The live Continuation Observatory extends that
+	measurement program into a public evidence surface, where current
+	readouts, falsification criteria, and revision history remain visible as
+	the framework is tested beyond the frozen Phase~I paper regime.
 	
 	\newpage
 	
