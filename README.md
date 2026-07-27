@@ -457,6 +457,6 @@ This repository is released under the project license in the root of the reposit
 
 ## Contact
 
-[Frontier AI Lab](https://lab.christopheraltman.com) ・ [Continuation Observatory](https://continuationobservatory.org) ・ [Personal Website](https://christopheraltman.com) ・ [Google Scholar](https://scholar.google.com/citations?user=tvwpCcgAAAAJ) ・ [Email](mailto:x@christopheraltman.com)
+[Frontier AI Lab](https://lab.christopheraltman.com) ・ [Continuation Observatory](https://continuationobservatory.org) ・ [Personal Website](https://christopheraltman.com) ・ [Google Scholar](https://scholar.google.com/citations?user=tvwpCcgAAAAJ) ・ [HuggingFace](https://huggingface.co/cohaerence) ・ [Email](mailto:x@christopheraltman.com)
 
 
